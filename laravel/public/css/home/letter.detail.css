@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+#content,body {
+    background-color: #f1f2f3
+}
+
+.pg-main-ll,.pg-main-lr {
+    border-width: 1px 1px 3px;
+    border-color: #e3e4e5;
+    border-style: solid;
+    float: left
+}
+
+#content {
+    width: 1200px
+}
+
+.pg-main-l {
+    float: left;
+    width: 976px
+}
+
+.pg-main-ll {
+    width: 222px;
+    background: #fff
+}
+
+.pg-main-ll-inner {
+    width: 200px;
+    padding: 18px 12px
+}
+
+a.pg-ll-nav {
+    width: 200px;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    background: url(https://b-ssl.duitang.com/uploads/people/201406/17/20140617103453_GQ2Vi.png) -14px -10px no-repeat;
+    text-indent: 20px;
+    cursor: pointer;
+    margin-bottom: 18px;
+    color: #444;
+    font-size: 13px;
+    text-decoration: none
+}
+
+.pg-ll-nav.current,a.pg-ll-nav.current:active,a.pg-ll-nav.current:hover,a.pg-ll-nav.current:link,a.pg-ll-nav.current:visited {
+    background-position: -14px -50px
+}
+
+.pg-main-lr {
+    width: 710px;
+    margin: 0 20px;
+    background: #fff
+}
+
+.pg-main-lr.loading {
+    background-image: url(https://b-ssl.duitang.com/uploads/people/201510/20/20151020151904_tnzVZ.gif);
+    background-repeat: no-repeat;
+    background-position: center 160px;
+    background-size: 86px
+}
+
+.pg-main-l .pg-main-l-title {
+    width: 680px;
+    height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 15px;
+    line-height: 40px
+}
+
+.pg-main-l .pg-main-letter {
+    padding: 12px 15px 16px;
+    border-bottom: 1px solid #e8e8e8;
+    width: 680px;
+    margin: 0 auto
+}
+
+.pg-main-l .pg-album-send,.pg-main-l .pg-banner-send,.pg-main-l .pg-people-send {
+    position: relative;
+    width: 224px;
+    padding-bottom: 4px;
+    float: left;
+    margin-top: 16px
+}
+
+.pg-main-l .pg-album-sendpic,.pg-main-l .pg-banner-sendpic,.pg-main-l .pg-people-sendpic {
+    position: relative;
+    display: block;
+    width: 224px
+}
+
+.pg-main-l .pg-album-sendpic img,.pg-main-l .pg-banner-sendpic img,.pg-main-l .pg-people-sendpic img {
+    display: block;
+    width: 224px
+}
+
+.pg-main-l .pg-album-sendmsg,.pg-main-l .pg-banner-sendmsg,.pg-main-l .pg-people-sendmsg {
+    width: 222px;
+    background-color: #fff;
+    border-left: 1px solid #dedfe0;
+    border-right: 1px solid #dedfe0;
+    border-bottom: 3px solid #dedfe0
+}
+
+.pg-main-l .pg-album-sendmsg-inner,.pg-main-l .pg-banner-sendmsg-inner,.pg-main-l .pg-sendmsg-inner {
+    padding: 8px 10px 12px;
+    font-size: 12px;
+    color: #888
+}
+
+.pg-album-sendmsg-inner p,.pg-banner-sendmsg-inner p,.pg-sendmsg-inner p {
+    line-height: 20px;
+    min-height: 20px
+}
+
+.pg-banner-sendmsg-inner p {
+    color: #444;
+    font-weight: 700
+}
+
+.pg-main-l .pg-album-send-cover,.pg-main-l .pg-banner-send-cover,.pg-main-l .pg-people-send-cover {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 222px;
+    height: 222px;
+    border: 1px solid rgba(0,0,0,.08);
+    background-color: #000\9;
+    filter: alpha(opacity=0);
+    opacity: 0\9
+}
+
+.section-bottom-a,.section-bottom-b {
+    height: 1px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.pg-album-send-cover:hover,.pg-banner-send-cover:hover,.pg-people-send-cover:hover {
+    background-color: rgba(0,0,0,.08);
+    background-color: #818181\9;
+    border: 1px solid rgba(0,0,0,.12);
+    border: 1px solid #000\9;
+    filter: alpha(opacity=16);
+    opacity: .16\9
+}
+
+.pg-main-l .pg-album-sendmsg,.section-bottom-a,.section-bottom-b {
+    border-bottom: 1px solid #dedfe0
+}
+
+.section-bottom-a {
+    width: 220px
+}
+
+.section-bottom-b {
+    width: 216px
+}
+
+.pg-main-letter .pg-detail-people-info,.pg-t-msg-text {
+    /*margin-left: 52px;*/
+    /*text-align: left*/
+}
+
+.pg-album-sendmsg-inner .pg-album-name {
+    line-height: 20px;
+    min-height: 20px;
+    color: #444;
+    font-weight: 700
+}
+
+.pg-album-user:hover,a.pg-album-user {
+    color: #888
+}
+
+.pg-album-attr {
+    padding-top: 8px
+}
+
+.pg-main-l .pg-banner-send,.pg-main-l .pg-banner-sendpic {
+    width: 400px
+}
+
+.pg-main-l .pg-banner-sendpic img {
+    width: 400px;
+    height: 250px
+}
+
+.pg-main-l .pg-banner-sendmsg {
+    width: 398px
+}
+
+.pg-main-l .pg-banner-send-cover {
+    width: 398px;
+    height: 248px
+}
+
+.pg-main-letter .pg-people-avatar {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    float: left
+}
+
+.pg-main-letter .pg-people-image {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    padding: 2px
+}
+
+.msg-txa,textarea.msg-txa:active,textarea.msg-txa:focus,textarea.msg-txa:hover {
+    border: 1px solid #a6a6a6
+}
+
+.pg-main-letter .pg-detail-people-info .pg-people-msg,.pg-main-letter .pg-detail-people-info .pg-people-name {
+    float: left;
+    word-break: break-all;
+    width: 628px;
+    line-height: 20px;
+    color: #444
+}
+
+.pg-people-name a {
+    color: #444;
+    font-size: 13px;
+    text-decoration: none
+}
+
+.msg-txa {
+    width: 628px;
+    height: 100px
+}
+
+.msg-up {
+    margin-top: 10px;
+    margin-bottom: 5px
+}
+
+.pg-main-r {
+    float: left;
+    width: 222px;
+    background: #fff;
+    border-width: 1px 1px 3px;
+    border-color: #e3e4e5;
+    border-style: solid
+}
+
+.pg-uptime {
+    color: #888
+}
+
+.pg-pticiptname,a.pg-back {
+    color: #444
+}
+
+.pg-main-r-inner {
+    width: 192px;
+    padding: 12px
+}
+
+.pg-main-r-title {
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #e3e4e5
+}

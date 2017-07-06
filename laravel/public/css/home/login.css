@@ -1,0 +1,93 @@
+body
+{
+	background:#FFF
+}
+#content
+{
+	width:100%;
+	/*background-image: url(../img/home/1.jpg);*/
+
+}
+.codes{
+	width:288px;
+	height:50px;
+}
+.codeleft{
+	width:140px;
+	float:left;
+}
+.coderight{
+	width:140px;
+	float:left;
+}
+.clear{
+	clear: both;
+}
+span
+{
+	color:#888
+}
+a:hover{
+	text-decoration:none!important
+}
+input[type=text],input[type=password],input[type=email]{border:1px solid #D4D4D4;outline:0;padding-left:10px!important;font-size:14px!important;border-radius:2px}
+.pg-header{
+	/*background:url(../11.jpg);*/
+	padding:60px 0 25px;
+	position:relative
+	}
+.pg-head{margin:0 auto;text-align:center;position:relative;width:770px;+width:100%;width:100%\9}
+.pg-home{display:block;width:180px;height:auto;margin:0 auto;padding:20px 0}
+.pg-logbtns{padding:5px 0}.pg-logbtns a{display:inline-block;padding:0 5px;font-size:14px}
+.pg-logbtns a.pg-log,.pg-logbtns a.pg-reg{color:#666}
+.pg-logbtns a:hover{color:#f14382}
+.pg-logbtns .active{color:#f14382!important}
+.pg-probar{position:absolute;z-index:100;top:126px;left:0;+padding-left:118px;padding-left:118px\9}
+.pg-probar .pg-node{float:left;margin-right:231px;font-size:14px}
+.pg-probar .pg-node .pg-p,.pg-probar .pg-on .pg-p{width:40px;height:40px;border-radius:40px;line-height:40px;margin:0 auto 10px;display:block}
+.pg-probar .pg-node .pg-p{font-size:18px;font-weight:700;background:#D9D9D9;color:#FFF;cursor:default;-webkit-user-select:none;-moz-user-select:none;user-select:none}
+.pg-probar .pg-on .pg-p{color:#fff;background:#F46}
+.pg-probar .pg-on{color:#F46}
+.pg-probar .pg-last{margin:0}
+.pg-probar .pg-bar{height:4px;background:#D9D9D9;position:absolute;top:20px;z-index:-1;+top:148px;top:148px\9}
+.pg-probar .pg-b1{left:74px;width:292px;+left:194px;left:194px\9}
+.pg-probar .pg-b2{left:403px;width:278px;+left:523px;left:523px\9}
+.pg-probar .pg-bar-on{background:#F46}
+.pg-wrap{margin:0 auto;width:770px;+width:100%;width:100%\9}
+.abtn u{font-family:tahoma,arial,sans-serif!important}
+.pg-box{margin:0 auto;padding:50px 5px}
+.pg-reg li{display:block}
+.pg-box .pg-regbox{position:relative;display:block;padding:10px 3px 10px 15px;border:1px solid #D4D4D4;border-radius:5px;width:180px;+width:200px;width:180px\9;height:28px;line-height:28px;color:#666;text-indent:33px;font-size:14px}
+.pg-box .pg-regbox:hover{background:#f6f6f6}
+/*.pg-regwrap{margin:0 auto;padding-left:90px;border-left:1px solid #EBEBEB}*/
+.pg-reg-log{margin-top:22px;padding-left:350px}
+.pg-reg-log a{margin-left:33px}
+.pg-reg-log a:first-child{margin-left:0}
+.pg-reg-log i{background-image:url(https://b-ssl.duitang.com/uploads/people/201501/15/20150115153954_UWNXn.png);display:inline-block;width:25px;height:25px}
+.pg-reg-log .pg-weibo{background-position:-4px -4px}
+.pg-reg-log .pg-QQ{background-position:-36px -4px}
+.pg-reg-log .pg-douban{background-position:-67px -4px}
+.pg-reg-log .pg-taobao{background-position:-100px -4px}
+.pg-reg-log .pg-qqweibo{background-position:-131px -4px}
+.pg-content{padding-top:50px;padding-bottom: 50px;}
+.pg-content .pg-wrapbox{width:960px;margin:0 auto}
+.pg-infobox{padding-right:90px;+width:361px}
+.pg-infobox input{height:38px;width:270px}
+.pg-infobox li .reg-tips{height:30px;display:block;color:red;line-height:30px}
+.pg-reg-bottom{height:20px;display:block}
+.pg-infobox .pg-vali{width:110px}
+.pg-tip-fail,.pg-tip-success{position:relative;top:6px;display:inline-block;color:#6ed642;width:19px;height:19px;font-size:14px}
+.pg-tip-success{background:url(https://b-ssl.duitang.com/uploads/people/201501/12/20150112210335_GQaZT.png) no-repeat}
+.pg-tip-fail{background:url(https://b-ssl.duitang.com/uploads/people/201501/12/20150112210335_GQaZT.png) 0 -27px no-repeat}
+.pg-infobox .pg-agr,.pg-infobox .pg-submits{-webkit-user-select:none;-moz-user-select:none}.pg-infobox .pg-agr label{width:auto;padding-left:10px;color:#444}
+.pg-infobox .pg-agr .pg-fog{font-size:14px;color:#5678a0}
+.pg-infobox .pg-agr .pg-fog:hover{text-decoration:underline;color:#f14382}
+.pg-infobox .pg-chb{width:auto;height:auto}
+.pg-infobox .pg-lgbtn{display:block;width:230px;text-align:center;background:#2FB5F3;border:none;color:#FFF;padding:5px 20px;border-radius:3px;cursor:pointer;font-size:14px;+margin-left:35px;margin-left:35px\9}
+.pg-infobox .pg-lgbtn:hover{background:#299ed6}
+.pg-box .form{padding-left:350px;width:361px}
+.pg-infobox .pg-submits{margin-top:7px}
+.pg-infobox .pg-submits .abtn{padding-left:20px;margin-right:0}
+.pg-infobox .pg-submits .abtn button{width:230px}
+
+.pg-box{background-color: rgba(0,0,0,0.2);}
